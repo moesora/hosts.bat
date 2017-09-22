@@ -8,7 +8,7 @@
 
 ------
 
-##### 管理员权限并不能直接赋予bat文件， 但是可以赋予快捷方式
+##### [管理员权限](http://www.zhihu.com/question/34541107) 并不能直接赋予bat文件， 但是可以赋予快捷方式
 > 属性 => 高级 => 用管理员身份运行 打勾即可
 
 ![](https://github.com/moesora/hosts.bat/raw/master/example1.png)  
