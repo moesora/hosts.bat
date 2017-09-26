@@ -17,13 +17,7 @@
 > 可以开机运行 或者 周期性运行
 
 ![](https://github.com/moesora/hosts.bat/raw/master/example2.png) 
-
-##### 运行时的窗口可以写一个vbs文件来隐藏
-  `set ws=WScript.CreateObject("WScript.Shell") `
-  
-  `ws.Run "hosts.lnk",0` 
-
-> 要在计划任务中使用的话，vbs里的路径要写成绝对路径
+> 计划任务中可以直接设置成用管理员身份运行bat
 ------
 
 ##### 加入自定义hosts，如下修改一句。新建一个custom文件，把自用的hosts写到custom里就行了
