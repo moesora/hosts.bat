@@ -27,7 +27,7 @@
 ------
 
 ##### 加入自定义hosts，如下修改一句。新建一个custom文件，把自用的hosts写到custom里就行了
-  `copy /y "hosts"+"custom" "%SystemRoot%\System32\drivers\etc\hosts"`
+  `copy /y hosts+custom %SystemRoot%\System32\drivers\etc\hosts`
 
 ------
 
